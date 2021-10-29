@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800");
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+.passionone {
+    font-family: 'Passion One', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 20px;
+  color: #212529;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(67.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(143,33%,50%),hsl(215,33%,50%),hsl(287,33%,50%),hsl(359,33%,50%),hsl(71,33%,50%));
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+  z-index: -1;
+}
+
+/* p {
+  line-height: 1.5;
+  margin: 30px 0;
+} */
+
+p {
+  color:#e0e0e0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color:#fff;
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+span {
+  color:#e0e0e0;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 53.6px;
+}
+
+#footer {
+  position: relative;
+  height: 53.6px;
+  margin-top: -53.6px;
+  clear: both;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 18px !important;
+    line-height: 2em !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    padding: 0px 15px ;
+}
+
+.navbar-brand {
+
+}
+
+.navbar .navbar-nav .nav-link {
+    font-family: 'Passion One', cursive;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    font-family: 'Passion One', cursive;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent ;
+}
+
+.svg{
+    width:50px;
+    padding: 2.5px;
+}
+
+/*Navbar HOVER animation effect */
+
+
+/*Styling navbar for ScrollSpy*/
+
+
+/*Navbar HOVER animation effect - END */
+/* NAVBAR STYLING - END */
+
+
+hr.hr-ss {
+  padding: 0;
+  border: none;
+  border-top: medium double #fff;
+  color: #fff;
+  text-align: center;
+}
